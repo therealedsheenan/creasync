@@ -1,0 +1,9 @@
+{
+  "name": "creasync",
+  "version": "0.0.1",
+  "description": "Asynchronous component and route for react",
+  "main": "index.js",
+  "repository": "https://github.com/therealedsheenan/creasync.git",
+  "author": "Sheenan Tenepre <sheenantenepre@gmail.com>",
+  "license": "MIT"
+}
