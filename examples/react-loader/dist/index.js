@@ -9683,8 +9683,8 @@ var creasync = function creasync(opts) {
       }
 
       _createClass(_class, [{
-        key: 'componentWillMount',
-        value: function componentWillMount() {
+        key: 'componentDidMount',
+        value: function componentDidMount() {
           var _this2 = this;
 
           opts.component.then(function (module) {

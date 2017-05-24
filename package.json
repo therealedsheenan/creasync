@@ -1,6 +1,6 @@
 {
   "name": "creasync",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Asynchronous component and route for react",
   "main": "./lib/creasync.js",
   "repository": "https://github.com/therealedsheenan/creasync.git",
@@ -11,9 +11,11 @@
     "babel-preset-react": "^6.24.1",
     "path": "^0.12.7",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "rimraf": "^2.6.1"
   },
   "scripts": {
+    "prebuild": "rimraf lib",
     "build": "babel src -d lib",
     "watch": "babel --watch src -d lib",
     "examples:serve": "cd examples/react-loader/ && http-server -a localhost -p 8001 -c-1 dist",
