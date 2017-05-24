@@ -1,6 +1,6 @@
 {
   "name": "creasync",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Asynchronous component and route for react",
   "main": "./lib/creasync.js",
   "repository": "https://github.com/therealedsheenan/creasync.git",
