@@ -14,7 +14,7 @@ const creasync = opts =>
       }
     }
 
-    componentWillMount() {
+    componentDidMount() {
       opts.component
         .then((module) => {
           console.log(module);
