@@ -14,5 +14,15 @@ The `creasync` method accepts an object.
 ### Examples
 See the examples directory.
 
+run the server
+```
+npm run examples:serve
+```
+then run webpack
+
+```
+npm run examples:webpack
+```
+
 #### Disclaimer
 Work in progress

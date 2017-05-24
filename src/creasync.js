@@ -10,13 +10,14 @@ const creasync = opts =>
       super(props)
       this.state = {
         loaded: false,
-        error: true
+        error: false
       }
     }
 
-    componentDidMount() {
+    componentWillMount() {
       opts.component
         .then((module) => {
+          console.log(module);
           this.Component = module.default
           this.setState({ loaded: true })
         })
@@ -26,17 +27,16 @@ const creasync = opts =>
     }
 
     render() {
-      const { loaded, error } = this.state
-      const Component = this.Component
-      const Loading = opts.loading
-      const Error = opts.error
-
+      const Component = this.Component;
+      const Loading = opts.loading;
+      const { loaded, error } = this.state;
       if (loaded && !error) {
-        return <Component {...this.props} />
-      } else if (error) {
-        return <Error />
+        return <Component {...this.props} />;
+      } else if (!loaded && error) {
+        const Error = opts.error;
+        return <Error />;
       }
-      return <Loading />
+      return <Loading />;
     }
   }
 

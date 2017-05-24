@@ -6,6 +6,10 @@ webpackJsonp([0],{
 "use strict";
 
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
 var _react = __webpack_require__(50);
 
 var _react2 = _interopRequireDefault(_react);
@@ -16,9 +20,11 @@ var Sample = function Sample() {
   return _react2.default.createElement(
     'div',
     null,
-    'this is the async component to be loaded...'
+    'THE ASYNC COMPONENT!!!'
   );
 };
+
+exports.default = Sample;
 
 /***/ })
 
