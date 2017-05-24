@@ -17,7 +17,6 @@ const creasync = opts =>
     componentDidMount() {
       opts.component
         .then((module) => {
-          console.log(module);
           this.Component = module.default
           this.setState({ loaded: true })
         })
