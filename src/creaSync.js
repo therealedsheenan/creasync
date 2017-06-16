@@ -3,7 +3,7 @@ import React from 'react'
 // opts is an object
 // e.g. { component, loading, error }
 
-const creasync = opts =>
+const creaSync = opts =>
   // return class
   class extends React.Component {
     constructor(props) {
@@ -39,4 +39,4 @@ const creasync = opts =>
     }
   }
 
-export default creasync
+export default creaSync

@@ -1,6 +1,6 @@
 {
   "name": "creasync",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "Asynchronous component and route for react",
   "main": "./lib/creasync.js",
   "repository": "https://github.com/therealedsheenan/creasync.git",
@@ -10,8 +10,8 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "path": "^0.12.7",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
     "rimraf": "^2.6.1"
   },
   "scripts": {
