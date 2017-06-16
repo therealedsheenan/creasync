@@ -1,8 +1,8 @@
 {
-  "name": "creasync",
-  "version": "0.1.5",
+  "name": "creaSync",
+  "version": "0.1.6",
   "description": "Asynchronous component and route for react",
-  "main": "./lib/creasync.js",
+  "main": "./lib/creaSync.js",
   "repository": "https://github.com/therealedsheenan/creasync.git",
   "author": "Sheenan Tenepre <sheenantenepre@gmail.com>",
   "license": "MIT",
